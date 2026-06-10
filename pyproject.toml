@@ -1,0 +1,18 @@
+[project]
+name = "cyber-hygiene-scanner"
+version = "1.0.0"
+description = "A safe CLI tool to assess basic web security hygiene."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "typer==0.15.1",
+  "rich==13.9.4",
+  "requests==2.32.3",
+  "pydantic==2.10.4"
+]
+
+[project.scripts]
+cyber-hygiene = "cyber_hygiene_scanner.cli:app"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
