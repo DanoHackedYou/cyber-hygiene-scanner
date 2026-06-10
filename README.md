@@ -5,6 +5,10 @@ A safe command-line tool that performs basic web security hygiene checks against
 It helps developers quickly review HTTPS usage, common security headers, exposed technology headers and common open ports.
 
 > This project is designed for learning, portfolio use and defensive security awareness. It does not perform exploitation, brute force, vulnerability exploitation or intrusive scanning.
+> 
+## Screenshot
+
+<img width="2842" height="1624" alt="image" src="https://github.com/user-attachments/assets/e29fbdcd-f66b-4c44-a66f-a3720fb1c0ca" />
 
 ## Features
 
