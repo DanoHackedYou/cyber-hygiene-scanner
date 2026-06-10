@@ -27,4 +27,4 @@ jobs:
 
       - name: Check CLI import
         run: |
-          python -m cyber_hygiene_scanner.cli --version
+          python -m cyber_hygiene_scanner.cli --help
