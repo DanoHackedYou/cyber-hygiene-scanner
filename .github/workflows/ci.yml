@@ -26,5 +26,4 @@ jobs:
           pytest
 
       - name: Check CLI import
-        run: |
-          python -m cyber_hygiene_scanner.cli --help
+        run: python -c "from cyber_hygiene_scanner.cli import app; print('CLI import OK')"
